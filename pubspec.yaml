@@ -1,0 +1,30 @@
+name: the_overwatch
+description: A comprehensive observability package for Flutter applications that enables running with different observability stacks. Currently supports Grafana stack but can be swapped with different stacks as well.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  dio: ^5.4.0
+  logging: ^1.2.0
+  uuid: ^4.3.3
+
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^3.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+
+# Optional Flutter dependencies for Flutter-specific features
+# Uncomment these when using in a Flutter app:
+# dependencies:
+#   flutter:
+#     sdk: flutter
+#   device_info_plus: ^10.1.0
+#   package_info_plus: ^8.0.0
+#   connectivity_plus: ^6.0.3
+#   sqflite: ^2.3.0
+#   path: ^1.8.3
+#   shared_preferences: ^2.2.2
