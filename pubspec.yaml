@@ -1,7 +1,21 @@
 name: the_overwatch
 description: A comprehensive observability package for Flutter applications that enables running with different observability stacks. Currently supports Grafana stack but can be swapped with different stacks as well.
 version: 1.0.0
-publish_to: 'none'
+
+# Repository and documentation links
+homepage: https://github.com/hson89/the_overwatch
+repository: https://github.com/hson89/the_overwatch
+documentation: https://github.com/hson89/the_overwatch#readme
+issue_tracker: https://github.com/hson89/the_overwatch/issues
+
+# Platform support
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

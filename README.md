@@ -44,15 +44,13 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  the_overwatch:
-    path: ../path/to/the_overwatch
+  the_overwatch: ^1.0.0
 ```
 
-For actual deployment, this would be published to pub.dev:
+Then run:
 
-```yaml
-dependencies:
-  the_overwatch: ^1.0.0
+```bash
+flutter pub get
 ```
 
 ## Quick Start
